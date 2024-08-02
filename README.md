@@ -1,29 +1,21 @@
-# todo-vue
+# Todo List com VueJS
 
-This template should help get you started developing with Vue 3 in Vite.
+Este projeto é uma aplicação de lista de tarefas (todo-list) desenvolvida com VueJS. A aplicação permite que os usuários gerenciem suas tarefas de maneira eficiente, oferecendo diversas funcionalidades práticas.
 
-## Recommended IDE Setup
+## Funcionalidades
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Filtros de Tarefas**
+  - Filtre as tarefas por: **pendentes**, **todas**, ou **finalizadas**.
+  
+- **Marcação de Tarefas Finalizadas**
+  - Ao clicar no checkbox de uma tarefa finalizada, a tarefa é marcada com um tachado, indicando sua conclusão.
+  
+- **Contador Dinâmico de Tarefas Pendentes**
+  - A quantidade de tarefas pendentes é exibida de forma dinâmica, atualizando conforme as tarefas são adicionadas ou concluídas.
 
-## Customize configuration
+- **Cadastro de Novas Tarefas**
+  - Adicione novas tarefas utilizando um campo de input e um botão de cadastro.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Tecnologias Utilizadas
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+- **VueJS**: Framework JavaScript utilizado para construir a interface do usuário de forma reativa.
