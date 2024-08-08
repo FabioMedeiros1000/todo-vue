@@ -19,3 +19,7 @@ Este projeto é uma aplicação de lista de tarefas (todo-list) desenvolvida com
 ## Tecnologias Utilizadas
 
 - **VueJS**: Framework JavaScript utilizado para construir a interface do usuário de forma reativa.
+
+## Link da aplicação
+
+[Demo](https://todo-vue-blue-five.vercel.app/)
